@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringConceptsAppApplicationTests {
+public class SpringConceptsAppApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		System.out.println("Application Context Loaded Successfully!");
 	}
-
 }
